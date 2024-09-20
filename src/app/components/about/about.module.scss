@@ -1,0 +1,27 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	padding: 40px;
+	background-color: #f0f0f5;
+	div {
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	h1 {
+		margin: 0;
+	}
+}
+
+@media (max-width: 860px) {
+	.about {
+		div {
+			width: 85%;
+		}
+	}
+}
